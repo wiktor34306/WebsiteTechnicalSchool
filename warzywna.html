@@ -1,0 +1,91 @@
+<! DOCTYPE html>
+<html>
+<head>
+<link rel="Shortcut icon" href="http://presto-pizza.pl/wp-content/themes/prestopizza/img/bestpizza.png" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="pl">
+<meta name="description" content="Strona o pizzy">
+<link rel="stylesheet" href="styl.css" type="text/css">
+<title>Czas na pizzę! - Strona poświęcona pizzy</title>
+<style type="text/css">
+p {font-family: 'Trebuchet MS'; color: white; font-size: 14pt;
+	padding-left: 5px; padding-top: 8px; padding-right: 5px; height: auto;}
+	
+#rodzaje {padding-left: 25px; padding-top: 8px; height: auto;}
+
+#treść {line-height: 30px; padding-left: 2cm;}
+
+#h {font-size: 26pt; color: blue}
+
+#zdj {margin-left: 36%; margin-right: 50%}
+			
+.przepis {font-family: 'Trebuchet MS';
+			color: white;
+			margin-left: 30px;}
+			
+p.przygotowanie {font-family: 'Trebuchet MS'; color: white; font-size: 12pt; margin-left: 10px;}
+
+#images{
+    padding:30px;
+}
+#images img{
+    position:relative;
+    float:left;
+    height:300px;
+    margin:5px;
+    transition:0.3s;
+    box-shadow: 0 0 0 #fff;
+}
+#images img:hover{
+    z-index:2;
+    transform: scale(1.2);
+}
+#images img:hover:after{
+    content: attr(title);
+}
+#nazwa {font-size: 24pt;}
+</style>
+</head>
+<body>
+<header id="czolo">
+	
+	<div id="naglowek"><img src="baner1.png" width="100%" height="96px"></div>
+	
+	<div id="menu">
+		<ol>
+    <li><a href="index.html">Strona główna</a></li>
+	<li><a href="historia.html">Historia pizzy</a>
+		<ul>
+			<li><a href="wartosc.html">Wartość odżywcza</a></li>
+			<li><a href="przepis.html">Przepis na ciasto</a></li>
+		</ul></li>
+	<li><a href="ciekawostki.html">Ciekawostki</a></li>
+	<li><a href="formularz.html">Formularz</a></li>
+	<li><a href="ankieta.html">Ankieta</a></li>
+  </ol>
+</div>
+<br>
+<div id="naglowek">Czas na pizzę!</div>
+  <br><br />
+  <div class="kolumny" id="kol1">
+			<p>Najpopularniejsze rodzaje pizz:</p>
+				<div id="rodzaje">
+				<p><a href="margherita.html" class="type">Margherita</a></p>
+				<p><a href="warzywna.html" class="type">Warzywna (wegetariańska)</a></p>
+				<p><a href="hawajska.html" class="type">Hawajska</a></p>
+				<p><a href="salami.html" class="type">Salami</a></p>
+				<p><a href="salami+pieczarka.html" class="type">Salami + pieczarka</a></p>
+				<p><a href="pieczarka.html" class="type">Pieczarka</a></p>
+				</div></div>
+				<div align="left">
+				<p id="nazwa">Wegetariańska</p>
+				<p class="przepis">Pizza składająca się z ciasta, sosu pomidorowego, sera i dodatków przede wszystkim bezmięsnych. W różnych restauracjach na pizzę nakładane są różne warzywa: kukurydza, karczochy, papryka, cebula, pieczarki, cukinia, bakłażan, czosnek, oliwki, pomidory, szpinak itd. Ma jedną charakterystyczną dla siebie rzecz: brak na niej mięsa!</p>
+				<div id="images" align="right"><img src="IMG_20180120_150820.jpg" alt="wegetariańska pizza" />
+				<img src="IMG_20180120_150824.jpg" alt="wegetariańska pizza" />
+				</div>
+				</div>
+				</header>
+	<div id="stopka">COPYRIGHT © 2018: WIKTOR MARKOWICZ</div>
+
+</body>
+</html>

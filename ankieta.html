@@ -1,0 +1,81 @@
+﻿<! DOCTYPE html>
+<html>
+<head>
+<link rel="Shortcut icon" href="http://presto-pizza.pl/wp-content/themes/prestopizza/img/bestpizza.png" />
+<title>Ankieta odnośnie pizzy</title>
+<link rel="stylesheet" href="styl.css" type="text/css">
+<meta charset="utf-8">
+<style type="text/css">
+body {background-color: #a7a7a7;
+	font-family: 'Trebuchet MS';
+	margin-left: 1% !important;}
+h1 {text-align: center;
+	font: 30px 'Trebuchet MS';
+	font-weight: bold;
+	font-variant: small-caps;
+	color: white;}
+li.ankieta {font-size: 20px;
+list-style-type: decimal;
+    padding: 0;
+	background-color: #FFF0;}
+.powrot {font-family:'Trebuchet MS';
+		color: white;}
+a.powrot:link {color: white;
+			text-decoration: none;}
+a.powrot:visited {color: white;
+			text-decoration: none;}
+a.powrot:hover {color: black;
+			text-decoration: none;}
+a.powrot:active {color: white;
+			text-decoration: none;}	
+			
+hr {margin-left: auto;
+	margin-right: auto;}
+</style>
+</head>
+<body>
+<header id="czolo">
+	
+	<div id="naglowek"><img src="baner1.png" width="100%" height="96px"></div>
+	
+	<div id="menu">
+		<ol>
+    <li><a href="index.html">Strona główna</a></li>
+	<li><a href="historia.html">Historia pizzy</a>
+		<ul>
+			<li><a href="wartosc.html">Wartość odżywcza</a></li>
+			<li><a href="przepis.html">Przepis na ciasto</a></li>
+		</ul></li>
+	<li><a href="ciekawostki.html">Ciekawostki</a></li>
+	<li><a href="formularz.html">Formularz</a></li>
+	<li><a href="ankieta.html">Ankieta</a></li>
+  </ol>
+</div>
+<br>
+<div id="naglowek">Czas na pizzę!</div>
+  <br><br />
+<form action="mailto:pizza@gmail.com" method="post">
+<h1>Ankieta</h1><hr size="2" width="600" color="black" />
+<br>
+<ul class="ankieta">
+	<li class="ankieta"><b>Czy lubisz pizzę?</b><br>
+	<label><input type="radio" value="tak" name="like">tak</label> &nbsp; &nbsp;<label><input type="radio" value="nie" name="like">nie</label></li><br>
+	<li class="ankieta"><b>Jaką pizzę wolisz?</b><br>
+	<label><input type="radio" value="kupną" name="rodzaj">kupną</label>&nbsp; &nbsp;<label><input type="radio" value="domową" name="rodzaj">domową</label></li><br>
+	<li class="ankieta"><b>Jaką pizzę preferujesz?</b><br>
+	<label><input type="radio" value="wege" name="prefer">wegetariańską</label>&nbsp; &nbsp;<label><input type="radio" value="ryby" name="prefer">z rybą/owocami morza</label>&nbsp; &nbsp;<label><input type="radio" value="mięso" name="prefer">z mięsem</label></li><br>
+	<li class="ankieta"><b>Pizza z sosem (typu: ketchup, sos czosnkowy) czy bez?</b><br>
+	<label><input type="radio" value="z sosem" name="sos">z sosem</label>&nbsp; &nbsp;<label><input type="radio" value="bez sosu" name="sos">bez sosu</label></li><br>
+	<li class="ankieta"><b>Pizza z kilkoma sosami czy jednym konkretnym?</b>(w przypadku odpowiedzi BEZ SOSU w poprzednim pytaniu, pytanie omiń)<br>
+	<label><input type="radio" value="kilka" name="sosy">z kilkoma sosami</label>&nbsp; &nbsp;<label><input type="radio" value="jeden konkretny" name="sosy">z jednym konkretnym</label></li><br>
+	<li class="ankieta"><b>Jak często jesz pizzę?</b><br>
+	<label><input type="radio" value="1 raz w tygodniu" name="czesto">raz w tygodniu</label>&nbsp; &nbsp;<label><input type="radio" value="kilka razy w tygodniu" name="czesto">kilka razy w tygodniu</label>&nbsp; &nbsp;<label><input type="radio" value="raz w miesiącu" name="czesto">raz w miesiącu</label>&nbsp; &nbsp;<label><input type="radio" value="kilka razy w miesiącu" name="czesto">kilka razy w miesiącu</label>&nbsp; &nbsp; własne(ilość/jednostka czasu): <input type="text" name="własne" value=""></li><br>
+	<li class="ankieta"><b>Czy częściej jesz pizzę domową czy kupioną np. w pizzerii?</b><br>
+	<label><input type="radio" value="domowa" name="like">robiona w domu</label> &nbsp; &nbsp;<label><input type="radio" value="kupiona" name="like">kupiona</label></li> 
+<br><br /><br>
+<input type="submit" value="Wyślij">&nbsp; &nbsp;
+<input type="reset" value="Wyczyść">
+	
+</ol>
+</body>
+</html>
